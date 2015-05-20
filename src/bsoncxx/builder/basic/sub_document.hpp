@@ -81,7 +81,7 @@ class BSONCXX_API sub_document {
         impl::value_append(_core, std::forward<V>(std::get<1>(t)));
     }
 
-   private:
+//   private:
     core* _core;
 };
 
